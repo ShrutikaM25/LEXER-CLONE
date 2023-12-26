@@ -173,8 +173,8 @@ const Sidebar = () => {
           </button>
         </div>
 
-        <div style={{ display: 'flex' }}>
-          <div ref={sidebarRef}
+        <div style={{display: 'flex'}} >
+          <div className='side-nav' ref={sidebarRef}
             style={{
               width: sidebarOpen ? '200px' : '0',
               backgroundColor: 'rgba(0, 0, 0, 0.3)',
